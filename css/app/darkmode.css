@@ -1,0 +1,24 @@
+/**
+ * app-skeleton-webpack:/css/app/darkmode.css
+ *
+ * @creation  2019-11-26
+ * @version   1.0
+ * @package   app-skeleton-webpack
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+/** For dark mode.
+ * @see https://www.webcreatorbox.com/tech/dark-mode
+ */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--root-color-text:         #ddd;
+		--root-color-background:   #000;
+	}
+
+	body.body {
+		transition-property: color, background;
+		transition-duration: 0.5s;
+	}
+}

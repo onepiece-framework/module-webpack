@@ -1,0 +1,11 @@
+/**
+ * app-skeleton-webpack:/css/app/appearance.css
+ *
+ * @creation  2019-11-19
+ * @version   1.0
+ * @package   app-skeleton-webpack
+ */
+
+body.body .hide {
+	display: none;
+}
