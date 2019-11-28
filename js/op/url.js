@@ -1,9 +1,9 @@
 /**
- * app-skeleton-webpack:/js/op/url.js
+ * op-module-webpack:/js/op/url.js
  *
  * @created   2017-06-08
  * @version   1.0
- * @package   app-skeleton-webpack
+ * @package   op-module-webpack
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */

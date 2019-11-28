@@ -1,12 +1,12 @@
 /**
- * app-skeleton-webpack:/js/app/ux-submit.js
+ * op-module-webpack:/js/app/ux-submit.js
  *
  * Anti duplicate submit.
  * Disable form part and A tag click after already page transition.
  *
  * @creation  2017-07-31
  * @version   1.0
- * @package   app-skeleton-webpack
+ * @package   op-module-webpack
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */

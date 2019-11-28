@@ -1,11 +1,11 @@
 /**
- * app-skeleton-webpack:/js/op/path.js
+ * op-module-webpack:/js/op/path.js
  *
  * This script user is just developers.
  *
  * @creation  2017-10-05
  * @version   1.0
- * @package   app-skeleton-webpack
+ * @package   op-module-webpack
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
@@ -26,7 +26,7 @@ $OP.Path = {};
  *
  * @creation  2017-06-07
  * @version   1.0
- * @package   app-skeleton-webpack
+ * @package   op-module-webpack
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
@@ -37,7 +37,7 @@ $OP.Path.Convert = function( path ){
 /**
  * @creation  2018-11-03
  * @version   1.0
- * @package   app-skeleton-webpack
+ * @package   op-module-webpack
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
