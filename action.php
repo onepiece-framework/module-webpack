@@ -20,21 +20,8 @@ namespace OP;
  */
 use function OP\ConvertPath;
 
-/* @var $ext    string */
-
-/*
-//	Get layout name.
-$layout = UNIT\App::Layout();
-
-//	Security check.
-if( strpos($layout, '..') !== false ){
-	Notice::Set("Security incident. ($layout)");
-	return;
-};
-
-//	Encode string.
-$layout = Encode($layout);
-*/
+/* @var $app UNIT\App */
+/* @var $ext string   */
 
 //	Switch work by extension.
 switch( $ext ){
@@ -44,8 +31,8 @@ switch( $ext ){
 		$app_path = __DIR__."/{$ext}/action.php";
 
 		//	...
-		if( $layout ?? null ){
-			$layout_path = ConvertPath("layout:/../$layout/$ext/action.php");
+		if( $app->Layout() ){
+			$layout_path = ConvertPath("layout:/$ext/action.php");
 			$layout_path = realpath($layout_path);
 			if(!$io = file_exists($layout_path) ){
 				\OP\Notice::Set("This file path has not been exists. ({$layout_path})");
