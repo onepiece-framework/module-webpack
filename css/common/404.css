@@ -1,0 +1,14 @@
+/**
+ * op-module-webpack:/css/common/404.css
+ *
+ * @creation  2019-03-27
+ * @version   1.0
+ * @package   op-module-webpack
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+body.body .page404 p {
+	margin: 1em 0;
+	font-size: 110%;
+}

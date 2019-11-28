@@ -1,0 +1,16 @@
+/**
+ * op-module-webpack:/css/common/root.css
+ *
+ * @creation  2018-10-26
+ * @version   1.0
+ * @package   op-module-webpack
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+:root {
+	--root-color-text:       #555;
+	--root-color-background: #fff;
+	--root-color-border:     #333;
+	--root-font-size:         9pt;
+}

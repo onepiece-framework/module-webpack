@@ -1,0 +1,13 @@
+/**
+ * op-module-webpack:/css/common/cursor.css
+ *
+ * @creation  2018-11-19
+ * @version   1.0
+ * @package   op-module-webpack
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+body.body .pointer {
+	cursor: pointer;
+}

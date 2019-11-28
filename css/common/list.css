@@ -1,6 +1,5 @@
-<?php
 /**
- * op-module-webpack:/css/action.php
+ * op-module-webpack:/css/common/list.css
  *
  * @creation  2018-04-17
  * @version   1.0
@@ -8,8 +7,8 @@
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
-//	...
-return array_merge(
-	include(__DIR__.'/op/action.php'),
-	include(__DIR__.'/common/action.php'),
-);
+
+body.body ul,
+body.body ol {
+	padding-left: 1.5em;
+}
