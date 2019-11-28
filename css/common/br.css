@@ -1,0 +1,14 @@
+/**
+ * op-module-webpack:/css/common/br.css
+ *
+ * @creation  2018-10-31
+ * @version   1.0
+ * @package   op-module-webpack
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+body.body .br::after {
+	content: "\A";
+	white-space: pre;
+}
