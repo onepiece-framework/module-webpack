@@ -31,7 +31,7 @@ switch( $ext ){
 		$app_path = __DIR__."/{$ext}/action.php";
 
 		//	...
-		if( $app->Layout() ){
+		if( UNIT\App::Layout() ){
 			$layout_path = ConvertPath("layout:/$ext/action.php");
 			$layout_path = realpath($layout_path);
 			if(!$io = file_exists($layout_path) ){
