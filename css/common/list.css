@@ -10,5 +10,9 @@
 
 body.body ul,
 body.body ol {
-	padding-left: 1.5em;
+
+}
+
+body.body li {
+	margin-left: 2.5em;
 }
