@@ -2,7 +2,7 @@
 /**
  * op-module-webpack:/js/op/action.php
  *
- * @creation  2018-04-12
+ * @created   2018-04-12
  * @version   1.0
  * @package   op-module-webpack
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>

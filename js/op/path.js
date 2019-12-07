@@ -3,7 +3,7 @@
  *
  * This script user is just developers.
  *
- * @creation  2017-10-05
+ * @created   2017-10-05
  * @version   1.0
  * @package   op-module-webpack
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
@@ -24,7 +24,7 @@ $OP.Path = {};
  * $OP.Path.Convert('app:/test1'); --> /app-foo/test1
  * </pre>
  *
- * @creation  2017-06-07
+ * @created   2017-06-07
  * @version   1.0
  * @package   op-module-webpack
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
@@ -35,7 +35,7 @@ $OP.Path.Convert = function( path ){
 };
 
 /**
- * @creation  2018-11-03
+ * @created   2018-11-03
  * @version   1.0
  * @package   op-module-webpack
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>

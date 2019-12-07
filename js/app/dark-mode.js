@@ -1,7 +1,7 @@
 /**
  * op-module-webpack:/js/app/dark-mode.js
  *
- * @creation  2019-11-19
+ * @created   2019-11-19
  * @version   1.0
  * @package   op-module-webpack
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>

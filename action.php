@@ -2,7 +2,7 @@
 /**
  * op-module-webpack:/action.php
  *
- * @creation  2019-05-09  Separate from index.php.
+ * @created   2019-05-09  Separate from index.php.
  * @version   1.0
  * @package   op-module-webpack
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
@@ -11,7 +11,7 @@
 
 /** namespace
  *
- * @creation  2019-02-25
+ * @created   2019-02-25
  */
 namespace OP;
 

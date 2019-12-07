@@ -4,7 +4,7 @@
  * Anti duplicate submit.
  * Disable form part and A tag click after already page transition.
  *
- * @creation  2017-07-31
+ * @created   2017-07-31
  * @version   1.0
  * @package   op-module-webpack
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>

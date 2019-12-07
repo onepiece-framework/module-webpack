@@ -1,7 +1,7 @@
 /**
  * op-module-webpack:/js/op/html.js
  *
- * @creation  2018-10-22
+ * @created   2018-10-22
  * @version   1.0
  * @package   op-module-webpack
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
