@@ -31,9 +31,8 @@ switch( $ext ){
 		$app_path = __DIR__."/{$ext}/action.php";
 
 		//	...
-		if( UNIT\App::Layout() ){
-			$layout_path = ConvertPath("layout:/$ext/action.php");
-			$layout_path = realpath($layout_path);
+		if( $layout = Env::Get('layout') ){
+			$layout_path = ConvertPath($layout['directory']) . $layout['name'] . "/$ext/action.php";
 			if(!$io = file_exists($layout_path) ){
 				\OP\Notice::Set("This file path has not been exists. ({$layout_path})");
 			};
