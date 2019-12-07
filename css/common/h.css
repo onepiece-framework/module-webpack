@@ -9,19 +9,19 @@
  */
 
 body.body h1 {
-	font-size: 150%;
+	font-size: 180%;
 }
 
 body.body h2 {
-	font-size: 150%;
+	font-size: 160%;
 }
 
 body.body h3 {
-	font-size: 110%;
+	font-size: 140%;
 }
 
 body.body h4 {
-	font-size: 110%;
+	font-size: 120%;
 }
 
 body.body h5 {
@@ -30,4 +30,14 @@ body.body h5 {
 
 body.body h6 {
 	font-size: 100%;
+}
+
+body.body h1,
+body.body h2,
+body.body h3,
+body.body h4,
+body.body h5,
+body.body h6 {
+	margin-top:    0.5em;
+	margin-bottom: 0.5em;
 }
