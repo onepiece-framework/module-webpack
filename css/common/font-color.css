@@ -20,3 +20,20 @@ body.body .failure,
 body.body .error {
 	color: red;
 }
+
+body.body .glay,
+body.body .gray {
+	color: gray;
+}
+
+body.body .green {
+	color: green;
+}
+
+body.body .purple {
+	color: purple;
+}
+
+body.body .yellow {
+	color: yellow;
+}
