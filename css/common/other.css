@@ -24,10 +24,6 @@ body.body .indent {
 	padding-left: 2em;
 }
 
-body.body hr {
-	margin: 0.5em 0;
-}
-
 /* Where is this use? */
 body.body section.important {
 	padding: 0.5em 1em;

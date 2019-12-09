@@ -19,6 +19,7 @@ return [
 	__DIR__.'/font-style',
 	__DIR__.'/font-color',
 	__DIR__.'/br',
+	__DIR__.'/hr',
 	__DIR__.'/a',
 	__DIR__.'/h',
 	__DIR__.'/p',
