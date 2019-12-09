@@ -12,3 +12,15 @@ body.body .br::after {
 	content: "\A";
 	white-space: pre;
 }
+
+body.body br.float.clear {
+	clear: both;
+}
+
+body.body br.float.clear.left {
+	clear: left;
+}
+
+body.body br.float.clear.right {
+	clear: right;
+}

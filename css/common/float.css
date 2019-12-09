@@ -8,10 +8,22 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
-.float.left {
+body.body .float.left {
 	float: left;
 }
 
-.float.right {
+body.body .float.right {
 	float: right;
+}
+
+body.body .float.clear {
+	clear: both;
+}
+
+body.body .float.clear.left {
+	clear: left;
+}
+
+body.body .float.clear.right {
+	clear: right;
 }
