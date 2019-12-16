@@ -12,6 +12,6 @@ body.body,
 body.body * {
 	margin:  0;
 	padding: 0;
-	color: inherit;
-	background-color: transparent;
+	_color: inherit;
+	_background-color: transparent;
 }
