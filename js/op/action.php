@@ -18,5 +18,5 @@ return [
 	__DIR__.'/ajax',
 	__DIR__.'/date',
 	__DIR__.'/html',
-	__DIR__.'/ux-submit',
+	__DIR__.'/form-disabler',
 ];
