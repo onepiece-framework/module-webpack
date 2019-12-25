@@ -1,0 +1,18 @@
+/**
+ * app-skeleton-webpack-module:/css/common/form-iphone.css
+ *
+ * @created   2019-12-10
+ * @version   1.0
+ * @package   app-skeleton-webpack-module
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+/** Anti auto zoom iPhone.
+ *
+ * @see http://shiru-web.com/2017/05/03/01-36/
+ */
+input[type=text] {
+	font-size: 16px;
+	transform: scale(0.8);
+}
