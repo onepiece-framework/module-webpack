@@ -8,12 +8,16 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
+body.body .markdown {
+
+}
+
 body.body .markdown table,
 body.body .markdown th,
 body.body .markdown td {
 	border-width: 1px;
 	border-style: solid;
-	border-color: hsl( var(--root-hue), 80%, 40%) !important;
+	border-color: hsla( var(--root-hue), 80%, 40%, 1) !important;
 }
 
 body.body .markdown table {
