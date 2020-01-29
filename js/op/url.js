@@ -14,15 +14,6 @@ if(!$OP ){
 
 //	...
 (function(){
-	/** Rebuild.
-	 *
-	 * @created  2019-04-26
-	 */
-	$OP._URL = {};
-})();
-
-//	...
-(function(){
 	/** Store meta url label and real url.
 	 *
 	 * <pre>
@@ -50,6 +41,11 @@ if(!$OP ){
 		__meta[meta] = path;
 	};
 
+	/** Init
+	 * 
+	 */
+	$OP.URL = {};
+
 	/** Convert to real url from meta url.
 	 *
 	 * <pre>
@@ -61,7 +57,7 @@ if(!$OP ){
 	 * @param    string
 	 * @return   string
 	 */
-	$OP.URL = function(url){
+	$OP.URL.Convert = function(url){
 		//	...
 		var m = url.match(/^([_a-z0-9]+):\//);
 		if(!m ){
@@ -97,6 +93,9 @@ if(!$OP ){
 
 //	...
 (function(){
+	//	...
+	$OP._URL = {};
+
 	//	...
 	$OP._URL.Protocol = function(){
 		return location.Protocol;
