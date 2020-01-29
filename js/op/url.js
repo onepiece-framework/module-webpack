@@ -150,8 +150,11 @@ if(!$OP ){
 		return queries;
 	};
 
+	//	Init
+	$OP.URL.Query = {};
+
 	//	...
-	$OP._URL.Query.Get = function(key, def){
+	$OP.URL.Query.Get = function(key, def){
 		//	...
 		var result = null;
 
@@ -169,7 +172,7 @@ if(!$OP ){
 	};
 
 	//	...
-	$OP._URL.Query.Set = function(key, val, save){
+	$OP.URL.Query.Set = function(key, val, save){
 		//	...
 		queries[key] = val;
 
