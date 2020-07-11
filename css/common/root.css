@@ -10,6 +10,7 @@
 
 :root {
 	--root-color-text:       #555;
+	--root-color-disabled:   #bbb;
 	--root-color-background: #fff;
 	--root-color-border:     #333;
 	--root-font-size:         9pt;
