@@ -58,6 +58,8 @@ body.body .float.right {
 	float: right;
 }
 
+body.body .pointer,
+body.body .clickable,
 body.body [onclick] {
 	cursor: pointer;
 }
