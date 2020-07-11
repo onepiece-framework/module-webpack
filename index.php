@@ -43,7 +43,7 @@ Env::Mime($mime);
 $app->Layout(false);
 
 /* @var $webpack \OP\UNIT\WebPack */
-if( $webpack = Unit::Singleton('WebPack') ){
+if( $webpack = Unit('WebPack') ){
 	//	Output packing string.
 	$webpack->Out($ext);
 };
