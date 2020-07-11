@@ -1,9 +1,9 @@
 /**
- * onepiece-framework.com:/language.css
+ * op-module-webpack:/css/app/language.css
  *
  * @created   2019-04-16
  * @version   1.0
- * @package   onepiece-framework.com
+ * @package   op-module-webpack
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
@@ -19,4 +19,8 @@
 	display: inline-block;
 	width: 12em;
 	margin: 0.2em 0;
+}
+
+.language-area .language {
+	cursor: pointer;
 }
