@@ -11,4 +11,5 @@
 //	...
 return [
 	__DIR__.'/app',
+	__DIR__.'/language',
 ];
