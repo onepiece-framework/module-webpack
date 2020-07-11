@@ -24,3 +24,10 @@
 .language-area .language {
 	cursor: pointer;
 }
+
+.language-area .language.current {
+	color: var(--root-color-disabled);
+	font-weight: bold;
+	cursor: default;
+	border-width: 0 !important;
+}
