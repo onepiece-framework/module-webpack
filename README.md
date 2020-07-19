@@ -1,8 +1,8 @@
-WebPack for onepiece-framework app skeleton
+WebPack for onepiece-framework
 ===
 
 # Usage
 
 ```php
-Unit::Singleton('WebPack')->Auto(__DIR__.'/index.css');
+Unit('WebPack')->Auto(__DIR__.'/index.css');
 ```
