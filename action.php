@@ -31,8 +31,22 @@ switch( $ext ){
 		$app_path = __DIR__."/{$ext}/action.php";
 
 		//	...
-		if( $layout = Env::Get('layout') ){
-			$layout_path = ConvertPath($layout['directory']) . $layout['name'] . "/$ext/action.php";
+		$layout = Config::Get('layout');
+
+		//	...
+		if( $layout['execute'] ?? null ){
+			//	...
+			$asset_root = RootPath('asset');
+
+			//	...
+			if(!$layout_name = $layout['name'] ?? null ){
+				throw new \Exception("The layout name is not set.");
+			}
+
+			//	...
+			$layout_path = "{$asset_root}layout/{$layout_name}/{$ext}/action.php";
+
+			//	...
 			if(!$io = file_exists($layout_path) ){
 				\OP\Notice::Set("This file path has not been exists. ({$layout_path})");
 			};
