@@ -27,7 +27,6 @@ if(!$OP ){
 	 */
 	var __meta = {};
 		__meta.app = "<?= $app->URL('app:/'); ?>";
-		__meta.cdn = "<?= $app->CDN('app:/'); ?>";
 
 	/** Set meta url label and real url.
 	 *
