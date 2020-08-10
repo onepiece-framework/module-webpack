@@ -27,21 +27,15 @@ if(!$ext = $app->Args()[0] ?? null ){
 $layout = $app->Layout();
 
 //	Generate MIME.
-switch( $ext ){
-	case 'js':
-		$mime = 'text/javascript';
-		break;
-	case 'css':
-		$mime = 'text/css';
-		break;
-	default:
-};
+Load('GetMimeFromExtension');
+if( $mime = GetMimeFromExtension($ext) ){
 
-//	Change MIME.
-Env::Mime($mime);
+	//	Change MIME.
+	Env::Mime($mime);
 
-//	Disable layout.
-$app->Layout(false);
+	//	Disable layout.
+	$app->Layout(false);
+}
 
 /* @var $webpack \OP\UNIT\WebPack */
 if( $webpack = Unit('WebPack') ){
