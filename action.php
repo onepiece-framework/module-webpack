@@ -34,7 +34,7 @@ switch( $ext ){
 		$layout = Config::Get('layout');
 
 		//	...
-		if( $layout['execute'] ?? null ){
+//		if( $layout['execute'] ?? null ){
 			//	...
 			$asset_root = RootPath('asset');
 
@@ -50,7 +50,7 @@ switch( $ext ){
 			if(!$io = file_exists($layout_path) ){
 				\OP\Notice::Set("This file path has not been exists. ({$layout_path})");
 			};
-		};
+//		};
 
 		//	...
 		if( $io ?? null ){
