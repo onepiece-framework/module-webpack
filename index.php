@@ -24,7 +24,7 @@ if(!$ext = $app->Args()[0] ?? null ){
 }
 
 //	Get layout name.
-$layout = UNIT\App::Layout();
+$layout = $app->Layout();
 
 //	Generate MIME.
 switch( $ext ){
