@@ -15,6 +15,7 @@ body.body code {
 	border-radius: 0.2em;
 	border: 1px solid #F0F0F0;
 	background-color: #F6F6F6;
+	color: #555;
 	white-space: pre;
 }
 
