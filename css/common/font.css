@@ -8,6 +8,8 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
-body.body .bold {
-	font-weight: bold;
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic);
+
+body.body {
+	font-family: 'Open Sans', sans-serif;
 }
