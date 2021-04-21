@@ -9,6 +9,8 @@
  */
 
 body.body {
+	margin:  0;
+	padding: 0;
 	color:            var(--root-color-text);
 	background-color: var(--root-color-background);
 	border-color:     var(--root-color-border);
