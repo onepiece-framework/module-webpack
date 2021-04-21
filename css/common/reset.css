@@ -7,15 +7,3 @@
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
-
-body.body,
-body.body * {
-	margin:  0;
-	padding: 0;
-	_color: inherit;
-	_background-color: transparent;
-}
-
-body.body ul {
-	padding-inline-start: 0;
-}
