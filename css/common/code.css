@@ -8,18 +8,26 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
-body.body code {
+body.body  code,
+body.body .code {
 	font-family: "Courier New", Consolas, monospace;
-	margin:  1em 0;
-	padding: 0.5em 1em;
 	border-radius: 0.2em;
 	white-space: pre;
-
 	color: var(--code-color-font);
 	background-color: var(--code-color-background);
 	border: 1px solid var(--code-color-border);
-
 	overflow: scroll;
+	line-height: .7em;
+}
+
+body.body div.code {
+	margin:  1em 0;
+	padding: 0.5em 1em;
+}
+
+body.body span.code {
+	margin:  .5em;
+	padding: .5em;
 }
 
 /* Separate to inline code */
