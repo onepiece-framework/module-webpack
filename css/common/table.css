@@ -8,11 +8,30 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
+body.body .table {
+	display: table;
+}
+
+body.body .table .tr {
+	display: table-row;
+}
+
+body.body .table .tr .th,
+body.body .table .tr .td {
+	display: table-cell;
+	padding: 0 0.1em;
+}
+
+body.body .table .tr .th {
+	font-weight:   bold;
+	text-align:  center;
+}
+
 body.body table,
-body.body tr,
 body.body th, 
 body.body td {
-	_border: 1px solid black;
+	border: 1px solid var(--table-border-color);
+	border-collapse: collapse;
 }
 
 body.body th.left, 
