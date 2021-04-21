@@ -28,7 +28,7 @@
 	--root-color-gray:         #ccc;
 	--root-input-border:       #999;
 	--root-button-background:  #eee;
-	--code-color-font:         hsl(0, 0%,  0%);
+	--code-color-text:         hsl(0, 0%,  0%);
 	--code-color-background:   hsl(0, 0%, 97%);
 	--code-color-border:       hsl(0, 0%, 50%);
 	--color-bg-disabled:       hsl(0, 0%, 95%);
@@ -49,7 +49,7 @@
 		--root-color-false:        #f99;
 		--root-color-null:         #f99;
 		--root-color-green:        #69f041;
-		--code-color-font:         hsl(0, 0%, 99%);
+		--code-color-text:         hsl(0, 0%, 90%);
 		--code-color-background:   hsl(0, 0%, 10%);
 		--code-color-border:       hsl(0, 0%, 50%);
 	}
