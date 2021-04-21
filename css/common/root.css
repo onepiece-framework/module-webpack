@@ -35,11 +35,6 @@
 	--table-border-color:      hsl(0, 0%, 50%);
 }
 
-/** For dark mode.
- *
- * @see       https://www.webcreatorbox.com/tech/dark-mode
- * @created   2019-11-19
- */
 /* <?php if( \OP\Config::Get('layout')['darkmode'] ?? null ): ?> */
 @media (prefers-color-scheme: dark) {
 	:root {
