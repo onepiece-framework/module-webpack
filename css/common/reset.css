@@ -15,3 +15,7 @@ body.body * {
 	_color: inherit;
 	_background-color: transparent;
 }
+
+body.body ul {
+	padding-inline-start: 0;
+}
