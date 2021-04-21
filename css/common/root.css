@@ -9,13 +9,30 @@
  */
 
 :root {
-	--root-hue:                   0;
-	--root-font-size:           1em;
-	--root-color-text:       #555;
-	--root-color-disabled:   #bbb;
-	--root-color-background: #fff;
-	--root-color-border:     #333;
+	--root-font-size:           9pt;
+	--root-color-text:         #555;
+	--root-color-disabled:     #bbb;
+	--root-color-background:   #fff;
+	--root-color-border:       #333;
 	--root-color-link:         #3170C3;
+	--root-color-visited:      #3170C3;
+	--root-color-hover:        #3170C3;
+	--root-color-true:         #00f;
+	--root-color-false:        #f00;
+	--root-color-null:         #f00;
+	--root-color-blue:         #00f;
+	--root-color-red:          #f00;
+	--root-color-green:        #0f0;
+	--root-color-purple:       #9437ff;
+	--root-color-gray:         #ccc;
+	--root-input-border:       #999;
+	--root-button-background:  #eee;
+	--code-color-font:         hsl(0, 0%,  0%);
+	--code-color-background:   hsl(0, 0%, 97%);
+	--code-color-border:       hsl(0, 0%, 50%);
+	--color-bg-disabled:       hsl(0, 0%, 95%);
+	--color-border-disabled:   hsl(0, 0%, 50%);
+	--table-border-color:      hsl(0, 0%, 50%);
 }
 
 /** For dark mode.
@@ -23,13 +40,22 @@
  * @see       https://www.webcreatorbox.com/tech/dark-mode
  * @created   2019-11-19
  */
+/* <?php if( \OP\Config::Get('layout')['darkmode'] ?? null ): ?> */
 @media (prefers-color-scheme: dark) {
 	:root {
-		--root-color-text:         #ddd;
-		--root-color-background:   #000;
-		--root-color-border:       #fff;
-		--root-color-link:         #47bd43;
-		--root-color-visited:      #f2f668;
+		--root-color-text:         #ccc;
+		--root-color-background:   #2c2c2c;
+		--root-color-border:       #aaa;
+		--root-color-link:         #00a5ff;
+		--root-color-visited:      #c951ff;
 		--root-color-hover:        #0f0;
+		--root-color-true:         #99f;
+		--root-color-false:        #f99;
+		--root-color-null:         #f99;
+		--root-color-green:        #69f041;
+		--code-color-font:         hsl(0, 0%, 99%);
+		--code-color-background:   hsl(0, 0%, 10%);
+		--code-color-border:       hsl(0, 0%, 50%);
 	}
 }
+/* <?php endif; ?> */

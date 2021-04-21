@@ -13,10 +13,13 @@ body.body code {
 	margin:  1em 0;
 	padding: 0.5em 1em;
 	border-radius: 0.2em;
-	border: 1px solid #F0F0F0;
-	background-color: #F6F6F6;
-	color: #555;
 	white-space: pre;
+
+	color: var(--code-color-font);
+	background-color: var(--code-color-background);
+	border: 1px solid var(--code-color-border);
+
+	overflow: scroll;
 }
 
 /* Separate to inline code */

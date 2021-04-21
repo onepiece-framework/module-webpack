@@ -9,16 +9,19 @@
  */
 
 body.body .blue,
+body.body .true,
 body.body .success {
-	color: blue;
+	color: var(--root-color-true);
 }
 
 body.body .red,
+body.body .null,
+body.body .false,
 body.body .fail,
 body.body .failed,
 body.body .failure,
 body.body .error {
-	color: red;
+	color: var(--root-color-false);
 }
 
 body.body .glay,
