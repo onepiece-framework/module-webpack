@@ -8,7 +8,8 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
-body.body pre {
+body.body  pre,
+body.body .pre {
 	margin:  0;
 	padding: 0;
 	border-width: 0;
