@@ -1,5 +1,5 @@
-/**
- * op-module-webpack:/js/op/url.js
+
+/** op-module-webpack:/js/op/url.js
  *
  * @created   2017-06-08
  * @version   1.0
@@ -7,6 +7,7 @@
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
+
 //	...
 if(!$OP ){
 	$OP = {};
@@ -26,7 +27,7 @@ if(!$OP ){
 	 * @created  2018-11-01
 	 */
 	var __meta = {};
-		__meta.app = "<?= $app->URL('app:/'); ?>";
+		__meta.app = "<?= \OP\ConvertURL('app:/') ?>";
 
 	/** Set meta url label and real url.
 	 *
