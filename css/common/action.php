@@ -11,6 +11,8 @@
 return [
 	__DIR__.'/reset',
 	__DIR__.'/root',
+	__DIR__.'/margin',
+	__DIR__.'/padding',
 	__DIR__.'/body',
 	__DIR__.'/border',
 	__DIR__.'/font',
