@@ -34,6 +34,13 @@ body.body td {
 	border-collapse: collapse;
 }
 
+body.body table.border.none,
+body.body table.border.none tr,
+body.body table.border.none th,
+body.body table.border.none td {
+	border-width: 0;
+}
+
 body.body th.left, 
 body.body td.left {
 	text-align: left;
