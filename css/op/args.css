@@ -44,11 +44,11 @@ span.args > span.arg > span.array {
 }
 
 span.args > span.arg > span.object {
-	color: var(--root-color-green);
+	color: var(--root-color-purple);
 }
 
 span.args > span.arg > span.string {
-	color: var(--root-color-green);
+	color: var(--root-color-text);
 }
 
 span.args > span.arg > span.string > span.meta {
