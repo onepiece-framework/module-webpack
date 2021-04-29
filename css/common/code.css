@@ -20,6 +20,7 @@ body.body .code {
 	line-height: 100%;
 }
 
+body.body pre > code,
 body.body div.code {
 	margin:  1em 0;
 	padding: 0.5em 1em;
