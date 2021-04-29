@@ -17,7 +17,7 @@ body.body .code {
 	background-color: var(--code-color-background);
 	border: 1px solid var(--code-color-border);
 	overflow: scroll;
-	line-height: .7em;
+	line-height: 100%;
 }
 
 body.body div.code {
