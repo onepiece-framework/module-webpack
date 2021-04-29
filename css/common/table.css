@@ -1,9 +1,9 @@
 
-/** op-module-webpack-css-common:/css/common/table.css
+/** op-module-webpack-css-common:/table.css
  *
  * @created   2017-01-11
  * @version   1.0
- * @package   op-module-webpack
+ * @package   op-module-webpack-css-common
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
@@ -27,18 +27,23 @@ body.body .table .tr .th {
 	text-align:  center;
 }
 
-body.body table,
-body.body th, 
-body.body td {
-	border: 1px solid var(--table-border-color);
+/* Table cells collapse settings */
+body.body  table:not(.separate),
+body.body .table:not(.separate) {
 	border-collapse: collapse;
 }
 
-body.body table.border.none,
-body.body table.border.none tr,
-body.body table.border.none th,
-body.body table.border.none td {
-	border-width: 0;
+/* Not draw border --> table.border.none */
+body.body table.border:not(.none) tr,
+body.body table.border:not(.none) th,
+body.body table.border:not(.none) td {
+	border: 1px solid var(--table-border-color);
+}
+
+/* Draw stripes color */
+body.body table.stripe  tr:nth-child(even),
+body.body table.stripes tr:nth-child(even) {
+	background-color: var(--table-background-color-stripes);
 }
 
 body.body th.left, 

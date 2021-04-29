@@ -1,15 +1,14 @@
 
-/** op-module-webpack-css-common:/css/common/pager.php
+/** op-module-webpack-css-common:/pager.php
  *
  * @created   2018-06-04
  * @version   1.0
- * @package   op-module-webpack
+ * @package   op-module-webpack-css-common
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
 body.body .OP.pager {
-	_border: 1px solid black;
 	text-align: center;
 }
 
@@ -19,8 +18,7 @@ body.body .OP.pager span.page {
 
 body.body .OP.pager span.page a,
 body.body .OP.pager span.page span.current {
-	_margin:  0;
-	_padding: 0.1em 0.2em;
+
 }
 
 /** Forward button.
@@ -41,7 +39,7 @@ body.body .OP.pager span.backward:after {
  *
  */
 body.body .OP.pager span.omit:after {
-	content:"…";
+	content:"...";
 }
 
 /** Clickable page number block.

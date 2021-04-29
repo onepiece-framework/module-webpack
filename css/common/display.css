@@ -1,4 +1,13 @@
 
+/** op-module-webpack-css-common:/display.css
+ *
+ * @created   2021-04-28
+ * @version   1.0
+ * @package   op-module-webpack-css-common
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
 body.body *.hidden {
 	display: none;
 }

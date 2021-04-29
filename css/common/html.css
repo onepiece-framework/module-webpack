@@ -1,5 +1,5 @@
 
-/* <?php if( Env::isAdmin() ): ?> */
+/* <?php if( \OP\Env::isAdmin() ): ?> */
 html:focus-within {
 	scroll-behavior: smooth;
 }

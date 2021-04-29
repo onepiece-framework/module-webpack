@@ -1,9 +1,9 @@
 
-/** op-module-webpack-css-common:/css/common/root.css
+/** op-module-webpack-css-common:/root.css
  *
  * @created   2018-10-26
  * @version   1.0
- * @package   op-module-webpack
+ * @package   op-module-webpack-css-common
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
@@ -34,9 +34,15 @@
 	--color-bg-disabled:       hsl(0, 0%, 95%);
 	--color-border-disabled:   hsl(0, 0%, 50%);
 	--table-border-color:      hsl(0, 0%, 50%);
+	--table-background-color-stripes: hsl(0, 0%, 95%);
 }
 
 /* <?php if( \OP\Config::Get('layout')['darkmode'] ?? null ): ?> */
+/** For dark mode.
+ *
+ * @see       https://www.webcreatorbox.com/tech/dark-mode
+ * @created   2019-11-19
+ */
 @media (prefers-color-scheme: dark) {
 	:root {
 		--root-color-text:         #ccc;
