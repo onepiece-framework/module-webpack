@@ -10,7 +10,6 @@
  */
 //	...
 return array_merge(
-	include(__DIR__.'/op/action.php'),
 	include(__DIR__.'/common/action.php'),
 	include(__DIR__.'/app/action.php')
 );
