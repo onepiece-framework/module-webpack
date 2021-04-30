@@ -1,13 +1,17 @@
 
-/** op-module-webpack:/css/common/margin.css
+/** op-module-webpack-css-common:/margin.css
  *
  * @created   2021-04-20
  * @version   1.0
- * @package   op-module-webpack
+ * @package   op-module-webpack-css-common
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
-body.body .ml1 {
+body.body .margin.left {
 	margin-left: 1em;
+}
+
+body.body .margin.left.x2 {
+	margin-left: 2em;
 }

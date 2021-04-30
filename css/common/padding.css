@@ -1,13 +1,17 @@
 
-/** op-module-webpack:/css/common/padding.css
+/** op-module-webpack-css-common:/padding.css
  *
  * @created   2021-04-20
  * @version   1.0
- * @package   op-module-webpack
+ * @package   op-module-webpack-css-common
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
-body.body .pl1 {
+body.body .padding.left {
 	padding-left: 1em;
+}
+
+body.body .padding.left.x2 {
+	padding-left: 2em;
 }
