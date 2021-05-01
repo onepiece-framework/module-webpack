@@ -1,7 +1,7 @@
 <?php
 /** op-module-webpack-css-common:/action.php
  *
- * @created   2018-04-12
+ * @created   2017-06-29
  * @version   1.0
  * @package   op-module-webpack-css-common
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
