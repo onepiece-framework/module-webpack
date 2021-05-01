@@ -1,6 +1,0 @@
-
-/* <?php if( \OP\Env::isAdmin() ): ?> */
-html:focus-within {
-	scroll-behavior: smooth;
-}
-/* <?php endif; ?> */
